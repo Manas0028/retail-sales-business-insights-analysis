@@ -1,50 +1,64 @@
-# market-research-business-insights-analysis
-Market Research &amp; Business Insights Analysis using SQL, Excel, and Power BI for sales, profitability, customer, and regional performance analysis.
+# Retail Sales & Business Insights Analysis
 
-# Market Research & Business Insights Analysis
+Retail Sales & Business Insights Analysis using **SQL, Excel, and Power BI** to evaluate sales performance, profitability, customer behavior, product performance, and regional trends.
 
 ## Project Overview
 
-This project focuses on analyzing sales performance, profitability, customer behavior, and regional market trends using the Global Superstore dataset. The objective is to transform raw business data into actionable insights that support strategic decision-making through data analytics and business intelligence techniques.
+This project focuses on analyzing retail sales data to identify business trends, profitability patterns, customer behavior, and regional performance using the **Global Superstore dataset**.
 
-The project demonstrates an end-to-end analytics workflow, including data cleaning, SQL-based analysis, interactive Power BI dashboard development, and executive business reporting.
+The objective is to transform raw transactional data into meaningful business insights that can support data-driven decision-making and business performance monitoring.
+
+The project demonstrates an end-to-end data analytics workflow, including:
+
+* Data cleaning and preparation
+* SQL-based business analysis
+* Exploratory data analysis
+* KPI calculation
+* Interactive Power BI dashboard development
+* Business reporting and insight generation
 
 ---
 
 ## Business Problem
 
-Organizations generate large amounts of sales and customer data; however, valuable insights often remain hidden without proper analysis. This project aims to answer critical business questions such as:
+Retail organizations generate large volumes of transactional data, but extracting meaningful insights from this data requires effective data analysis and visualization.
 
-* Which regions generate the highest revenue and profit?
-* Which product categories drive business growth?
-* Who are the most valuable customers?
-* What trends exist in sales performance over time?
-* Which markets present growth opportunities?
+This project aims to answer key business questions such as:
+
+* Which regions generate the highest sales and profit?
+* Which product categories and sub-categories perform best?
+* Which customers contribute significantly to revenue?
+* How do sales and profit change over time?
+* Which areas show opportunities for business growth?
+* Which products or categories require profitability improvement?
 
 ---
 
 ## Project Objectives
 
-* Analyze sales and profitability performance.
+* Analyze overall sales and profitability performance.
 * Identify top-performing regions, products, and customer segments.
-* Evaluate market trends and growth opportunities.
-* Build an interactive Power BI dashboard for business monitoring.
-* Generate actionable recommendations through data-driven analysis.
+* Analyze monthly and yearly sales trends.
+* Evaluate product and category-level performance.
+* Calculate and monitor key business performance indicators.
+* Develop an interactive Power BI dashboard for business monitoring.
+* Generate actionable insights and recommendations from the analysis.
 
 ---
 
 ## Tools & Technologies
 
-* **SQL (MySQL)** – Data querying and business analysis
-* **Microsoft Excel** – Data cleaning and preparation
-* **Power BI** – Dashboard creation and visualization
+* **SQL (MySQL)** – Data querying, aggregation, filtering, and business analysis
+* **Microsoft Excel** – Data cleaning, preparation, and validation
+* **Power BI** – Data visualization, KPI reporting, and interactive dashboard development
+* **DAX** – KPI calculations and analytical measures
 * **GitHub** – Project documentation and portfolio management
 
 ---
 
 ## Dataset
 
-The project uses the Global Superstore Dataset containing over 50,000 transaction records across multiple countries and regions.
+The project uses the **Global Superstore Dataset**, containing 50,000+ transactional records across multiple countries and regions.
 
 ### Key Fields
 
@@ -66,7 +80,7 @@ The project uses the Global Superstore Dataset containing over 50,000 transactio
 ## Project Structure
 
 ```text
-market-research-business-insights-analysis
+retail-sales-business-insights-analysis
 │
 ├── Dataset
 │   └── superstore_dataset.csv
@@ -87,43 +101,61 @@ market-research-business-insights-analysis
 └── README.md
 ```
 
+> **Note:** The existing dataset, SQL, Power BI, and report filenames can remain unchanged if they are already used in your GitHub repository. The project title and documentation can be updated without changing the original dataset filename.
+
 ---
 
 ## Analysis Performed
 
-### Data Cleaning
+### Data Cleaning & Preparation
 
-* Removed inconsistencies and validated data quality.
-* Standardized date formats and categorical fields.
-* Prepared data for analysis and visualization.
+* Checked and validated data quality.
+* Identified and handled inconsistencies in the dataset.
+* Standardized date and categorical fields.
+* Prepared transactional data for SQL analysis and Power BI reporting.
 
 ### SQL Analysis
 
-Business analysis was performed using SQL queries, including:
+Business analysis was performed using SQL queries to evaluate:
 
-* Total Revenue Analysis
+* Total Sales Analysis
 * Total Profit Analysis
-* Revenue by Region
+* Sales by Region
 * Profit by Category
-* Top Customers Analysis
-* Product Performance Analysis
+* Top Customers
+* Product Performance
 * Monthly Sales Trends
-* Customer Segment Analysis
+* Customer Segment Performance
+* Regional Sales Performance
 
-### Power BI Dashboard
+SQL techniques used include:
 
-An interactive dashboard was developed to monitor business performance and support decision-making.
+* Filtering
+* GROUP BY
+* Aggregate Functions
+* ORDER BY
+* Conditional Analysis
+* Joins where required
+
+---
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed to provide a consolidated view of retail business performance.
+
+The dashboard enables users to monitor sales, profitability, customer, product, and regional performance through interactive visualizations and filters.
 
 ---
 
 ## Key Performance Indicators (KPIs)
 
-The dashboard includes:
+The dashboard includes key metrics such as:
 
-* Total Revenue
-* Total Profit
-* Total Orders
-* Average Order Value
+* **Total Sales**
+* **Total Profit**
+* **Total Orders**
+* **Average Order Value**
+* **Total Quantity Sold**
 
 ---
 
@@ -131,70 +163,90 @@ The dashboard includes:
 
 ### Monthly Sales Trend
 
-Tracks revenue performance over time and identifies seasonal patterns.
+Analyzes sales performance over time and helps identify monthly and seasonal patterns.
 
-### Revenue by Region
+### Sales by Region
 
-Compares revenue generation across different geographic regions.
+Compares sales performance across different geographic regions.
 
 ### Profit by Category
 
-Evaluates category-level profitability.
+Evaluates profitability across major product categories.
 
 ### Sales by Sub-Category
 
-Highlights top-performing product groups.
+Identifies high-performing and low-performing product groups.
+
+### Customer Performance
+
+Highlights customers contributing significantly to overall sales.
 
 ### Geographic Performance
 
-Visualizes sales distribution across countries and regions.
+Provides an overview of sales distribution across countries and regions.
 
 ### Interactive Filters
+
+The dashboard allows users to filter the analysis by:
 
 * Year
 * Region
 * Category
+* Sub-Category
+* Customer Segment
 
 ---
 
 ## Key Insights
 
-* High-performing regions contributed significantly to total revenue.
-* Technology-related products generated strong profitability.
-* Sales performance demonstrated seasonal fluctuations.
-* A small group of customers accounted for a substantial share of revenue.
-* Several product categories showed opportunities for margin optimization.
+The analysis identified several business trends, including:
+
+* High-performing regions contributed significantly to overall sales.
+* Certain product categories generated stronger profitability than others.
+* Sales performance varied across different time periods.
+* A relatively small group of customers contributed significantly to overall revenue.
+* Product and category-level performance varied across regions.
+* Low-margin products and categories presented opportunities for profitability improvement.
 
 ---
 
 ## Business Recommendations
 
-* Increase investment in high-growth markets.
-* Focus on profitable product categories.
-* Strengthen customer retention initiatives.
-* Optimize pricing strategies for low-margin products.
-* Utilize business intelligence dashboards for continuous performance monitoring.
+Based on the analysis, the following recommendations can be considered:
+
+* Focus resources on high-performing and high-growth regions.
+* Prioritize profitable product categories and sub-categories.
+* Strengthen customer retention strategies for high-value customers.
+* Review pricing and discount strategies for low-margin products.
+* Monitor sales and profitability KPIs through interactive dashboards.
+* Use regional and product-level performance data to support business planning.
 
 ---
 
 ## Skills Demonstrated
 
-* Data Cleaning
 * SQL Querying
-* Data Analysis
-* Business Intelligence
+* Data Cleaning
+* Data Transformation
+* Data Validation
+* Exploratory Data Analysis
+* Business Analysis
+* KPI Analysis
+* Power BI Dashboard Development
+* DAX
 * Data Visualization
-* Power BI Dashboarding
 * Business Reporting
-* Market Research
-* Insight Generation
-* Strategic Analysis
+* Trend Analysis
+* Business Insights
+* Data Storytelling
 
 ---
 
 ## Conclusion
 
-This project demonstrates how data analytics and business intelligence techniques can be applied to convert raw transactional data into meaningful business insights. Through SQL, Excel, and Power BI, the analysis provides valuable recommendations that support strategic decision-making and business growth.
+This project demonstrates the application of **SQL, Excel, and Power BI** to analyze retail transactional data and convert raw data into actionable business insights.
+
+The analysis covers sales performance, profitability, customer behavior, product performance, and regional trends. The resulting Power BI dashboard provides an interactive approach to KPI monitoring and supports data-driven business decision-making.
 
 ---
 
@@ -202,4 +254,4 @@ This project demonstrates how data analytics and business intelligence technique
 
 **Manas Aswal**
 
-Aspiring Data Analyst | SQL | Power BI | Excel | Business Intelligence
+Aspiring Data Analyst | SQL | Power BI | Excel | Python
