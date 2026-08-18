@@ -94,10 +94,6 @@ retail-sales-business-insights-analysis
 ├── Reports
 │   └── Market_Research_and_Business_Insights_Analysis_Report.docx
 │
-├── Dashboard_Screenshots
-│   ├── dashboard1.png
-│   └── dashboard2.png
-│
 └── README.md
 ```
 
